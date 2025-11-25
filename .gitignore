@@ -16,6 +16,7 @@ __MACOSX/
 
 # Models (never commit large model files)
 models/
+tools/
 **/vosk-model-*/
 **/piper-voices/
 *.onnx
