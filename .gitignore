@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Models (never commit large model files)
+models/
+**/vosk-model-*/
+**/piper-voices/
+*.onnx
+*.pth
+*.bin
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp

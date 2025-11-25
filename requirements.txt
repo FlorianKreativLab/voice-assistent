@@ -1,0 +1,18 @@
+# --- Testcommit ---
+
+
+# --- Text To Speech ---
+pyttsx3          # Offline TTS-Engine (nutzt Systemstimmen)
+pyobjc           # nötig für pyttsx3 auf macOS
+
+# --- Speech To Text (offline/online) ---
+vosk             # Offline STT
+sounddevice      # Audio-Zugriff für Vosk
+SpeechRecognition  # Online STT (Google-API, optional)
+pyaudio            # Optional, für SpeechRecognition-Mikro (kann auf Mac knifflig sein)
+
+# --- LLM / Schnittstellen ---
+requests         # HTTP-Anfragen (für Ollama, evtl. APIs)
+
+# --- Allgemein / Tools ---
+numpy            # gebraucht in manchen Audio-Snippets (z.B. Pegelanzeige)
